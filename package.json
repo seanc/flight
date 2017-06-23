@@ -1,0 +1,32 @@
+{
+  "name": "flight",
+  "description": "Upload and share files easily",
+  "version": "0.1.0",
+  "homepage": "https://github.com/seanc/flight",
+  "author": "Sean Wilson (https://imsean.me)",
+  "repository": "seanc/flight",
+  "bugs": {
+    "url": "https://github.com/seanc/flight/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "generategenerator"
+  ],
+  "dependencies": {
+    "conf": "^1.1.2",
+    "express": "^4.15.3",
+    "got": "^7.0.0",
+    "hmmac": "^0.2.2",
+    "meow": "^3.7.0",
+    "serve-index": "^1.9.0"
+  }
+}
